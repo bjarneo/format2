@@ -66,7 +66,7 @@ console.log(format2(
 ));
 console.log(format2(
     space,
-    '3.',
+    '2.',
     'Bjarne Oeverli',
     'Node',
     'Best of Node'
