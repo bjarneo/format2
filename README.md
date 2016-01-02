@@ -38,34 +38,32 @@ Output:
 Advanced example
 ------
 ```js
-var repeat = require('string-repeat');
 var format2 = require('format2');
-
-var space = '{0:3} | {0:25} | {0:25} | {0:25}';
+var formatting = '{0:3} | {0:25} | {0:25} | {0:25}';
 
 console.log(format2(
-    space,
+    formatting,
     '#',
     'Artist',
     'Song',
     'Album'
 ));
 console.log(format2(
-    space,
-    repeat('-', 3),
-    repeat('-', 24),
-    repeat('-', 24),
-    repeat('-', 24)
+    formatting,
+    '-'.repeat(3),
+    '-'.repeat(24),
+    '-'.repeat(24),
+    '-'.repeat(24)
 ));
 console.log(format2(
-    space,
+    formatting,
     '1.',
     'Bjarne Oeverli',
     'Let me node you',
     'Best of Node'
 ));
 console.log(format2(
-    space,
+    formatting,
     '2.',
     'Bjarne Oeverli',
     'Node',
