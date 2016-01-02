@@ -34,11 +34,7 @@ module.exports = function format2(syntax) {
 
         var output = '';
         var innerSyntax = match[i].split(':');
-
-        innerSyntax[0] = parseInt(innerSyntax[0], 10);
-        innerSyntax[1] = parseInt(innerSyntax[1], 10);
-
-        var availableSpace = innerSyntax[1] - innerSyntax[0];
+        var availableSpace = parseInt(innerSyntax[1], 10) - parseInt(innerSyntax[0], 10);
 
         // Cut a string if it's longer than defined length
         if (args[i].length > availableSpace) {
