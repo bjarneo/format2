@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var format2 = require('../format2');
+var format2 = require('../index');
 
 describe('format2', function() {
     it('should format the string and add input field and spaces based on the input value length', function() {

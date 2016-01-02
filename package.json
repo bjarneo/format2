@@ -2,7 +2,7 @@
   "name": "format2",
   "version": "1.0.4",
   "description": "Advanced string formatting for the CLI",
-  "main": "format2.js",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint src/ test/",
     "posttest": "npm run lint",
