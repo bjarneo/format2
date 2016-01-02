@@ -1,6 +1,6 @@
 {
   "name": "format2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Advanced string formatting for the CLI",
   "main": "format2.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash.isstring": "^3.0.1",
-    "string-format": "^0.5.0"
+    "string-repeat": "^1.1.1"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
