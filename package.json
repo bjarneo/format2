@@ -1,6 +1,6 @@
 {
   "name": "format2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Advanced string formatting for the CLI",
   "main": "format2.js",
   "scripts": {
@@ -19,6 +19,14 @@
   ],
   "author": "Bjarne Oeverli",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/format2.git"
+  },
+  "homepage": "https://github.com/bjarneo/format2",
+  "bugs": {
+    "url": "https://github.com/bjarneo/format2/issues"
+  },
   "dependencies": {
     "lodash.isstring": "^3.0.1",
     "string-repeat": "^1.1.1"
