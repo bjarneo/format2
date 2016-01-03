@@ -69,13 +69,8 @@ console.log(format2(
     'Node',
     'Best of Node'
 ));
-
-Output:
-#   | Artist                    | Song                      | Album                   
---- | ------------------------  | ------------------------  | ------------------------
-1.  | Bjarne Oeverli            | Let me node you           | Best of Node            
-2.  | Bjarne Oeverli            | Node                      | Best of Node            
 ```
+![Output](http://i.imgur.com/dJw4chC.png)
 
 Contribution
 ------

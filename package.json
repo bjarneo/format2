@@ -1,6 +1,6 @@
 {
   "name": "format2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Advanced string formatting for the CLI",
   "main": "index.js",
   "scripts": {
